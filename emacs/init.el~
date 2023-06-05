@@ -452,7 +452,7 @@
   (setq org-capture-templates
     `(("t" "Tasks / Projects")
       ("tt" "Task" entry (file+olp "~/.config/emacs/Tasks.org" "Inbox"))
-           "* TODO %?\n  %U\n  %a\n  %i" :empty-lines 1))
+           "* TODO %?\n  %U\n  %a\n  %i" :empty-lines 1)
   (define-key global-map (kbd "C-c j")
     (lambda () (interactive) (org-capture nil "jj")))
 

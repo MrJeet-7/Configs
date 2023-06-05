@@ -1,0 +1,126 @@
+#+TITLE: Keybindings
+#+AUTHOR: Mr.Jeet
+
+=Note= 'C-' Means CTRL and 'M-'  means ALT/META
+
+Using Evil-mode so all your vim Keys will work here as well.Here are some of mine custom keybinds that you can change in Emacs.org if you want to.
+
+* General Keybinds
+
+| Keybinds | description                      |
+|----------+----------------------------------|
+| SPC fde  | Ooen Config file (Emacs.org)     |
+| SPC SPC  | Open M-x commands                |
+| SPC cc   | Compile                          |
+| SPC cC   | Recompile                        |
+| SPC tc   | toggle color theme               |
+| SPC hrr  | Reload Config (init.el)          |
+| SPC tt   | toggle truncate lines            |
+| SPC hk   | Open This file (Keybindings.org) |
+| SPC tm   | toggle minimap                   |
+| SPC chf  | Clippy describe function         |
+| SPC chv  | Clippy describe variable         |
+| SPC ts   | Text scale                       |
+| M-/      | Nerd commenter                   |
+| C-cl     | Toggle LSP mode                  |
+| C-cp     | projectile                       |
+
+=Note= For projectile to work properly make sure to setup your project directory in Emacs.org file under projectile by default it is set to "~/projects/" 
+
+* Org mode Keybinds
+
+| Keybinds | description              |
+|----------+--------------------------|
+| SPC m*   | Org-ctrl-c-star          |
+| SPC m+   | Org-ctrl-c-minus         |
+| SPC m.   | counsel org goto         |
+| SPC me   | Org export dispatch      |
+| SPC mf   | Org footnote new         |
+| SPC mh   | Org toggle header        |
+| SPC mi   | Org toggle item          |
+| SPC mn   | Org store link           |
+| SPC mo   | Org set property         |
+| SPC mt   | Org todo                 |
+| SPC mx   | Org tollge checkbox      |
+| SPC mB   | Org babel tangle         |
+| SPC mI   | Org toggle inline imager |
+| SPC mT   | Org todo list            |
+| SPC oa   | Org agenda               |
+
+* File-related Keybinds
+
+| Keybinds | description               |
+|----------+---------------------------|
+| SPC .    | Find file                 |
+| SPC ff   | Find file                 |
+| SPC fr   | Recent file               |
+| SPC fs   | Save file                 |
+| SPC su   | Sudo find file            |
+| SPC fy   | yank file path            |
+| SPC fC   | Copy file                 |
+| SPC fD   | Delete file               |
+| SPC fR   | Rename file               |
+| SPC fS   | Save file as..            |
+| SPC fU   | Sudo edit file            |
+| SPC tn   | Toggle neotree            |
+| SPC dn   | Open directory in neotree |
+
+* Split and Window Control
+
+| Keybinds     | Description             |
+|--------------+-------------------------|
+| SPC wc       | Close current window    |
+| SPC wn       | Create new window       |
+| SPC ws       | Create horizontal split |
+| SPC wv       | Create vertical split   |
+| SPC wh       | Window left             |
+| SPC wj       | Window down             |
+| SPC wk       | Window up               |
+| SPC wl       | Window right            |
+| SPC ww       | next window             |
+| SPC w<right> | Winner redo             |
+| SPC w<left>  | Winner undo             |
+
+* Buffer control
+
+| Keybinds | Description                            |
+|----------+----------------------------------------|
+| SPC bb   | Ibuffer                                |
+| SPC bc   | Clone current buffer in another window |
+| SPC bk   | Kill current buffer                    |
+| SPC bn   | Next Buffer                            |
+| SPC bp   | Previous Buffer                        |
+| SPC bB   | Ibuffer list buffers                   |
+| SPC bK   | kill buffer                            |
+
+* E-lisp Keybinds
+
+| Keybinds | Description           |
+|----------+-----------------------|
+| SPC eb   | Eval elisp in buffer  |
+| SPC ed   | Eval defun            |
+| SPC ee   | Eval elisp expression |
+| SPC el   | Eval last expression  |
+| SPC er   | Eval region           |
+
+* Ivy and counsel  keybinds
+
+| Keybinds | Description                            |
+|----------+----------------------------------------|
+| C-s      | Swiper ( works like find/searcg)       |
+| TAB      | Ivy-alt-done ( autocomplete commands ) |
+| C-l      | Same as TAB                            |
+| C-j      | Ivy-next-line                          |
+| C-k      | Ivy-previous-line                      |
+| C-d      | Ivy-switch-buffer-kill                 |
+| C-M-j    | Counsel-switch-buffer                  |
+| C-r      | Counsel-minibuffer-history             |
+
+* Dired
+
+Dired is emacs's default file manager
+If you dont like neotree you can use default dired too here are some keybinds
+
+| Emacs Defaults | Evil mode | Description |
+|----------------+-----------+-------------|
+|                |           |             |
